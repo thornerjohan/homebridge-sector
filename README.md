@@ -42,6 +42,22 @@ Config example
             "polling": false,                  
             "pollInterval": 60000,             
             "name": "Home security"
+         },
+         {
+             "accessory": "Sector-SecuritySystemSensor",
+             "email": "myemail@someplace.com",
+             "password": "SuperSecurePassword",
+             "siteId": "111111",
+             "name": "Thermometer Livingroom",
+             "sensorId": "12345678901"
+         },
+         {
+             "accessory": "Sector-SecuritySystemSensor",
+             "email": "myemail@someplace.com",
+             "password": "SuperSecurePassword",
+             "siteId": "111111",
+             "name": "Termometer Basement",
+             "sensorId": "12345678902"
         }
     ]
 }
