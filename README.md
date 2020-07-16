@@ -23,8 +23,12 @@ There are quite a few things that could be added to this.
 ## Configuration
 Below is a configuration example snipped that should be inserted into your existing, workingm, homebridge config.
 
-install this by going to your homebridge folder (/var/lib/homebridge) and type: sudo -E -n npm install -g git+https://github.com/thornerjohan/homebridge-sector.git
+install this by going to your homebridge folder (/var/lib/homebridge) and type: 
+```json
+sudo -E -n npm install -g git+https://github.com/thornerjohan/homebridge-sector.git
+```
 
+Config example
 ```json
 // Config example.
 {
